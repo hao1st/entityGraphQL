@@ -1,0 +1,35 @@
+{
+  "definitions":
+  [
+    {
+      "name": "def1",
+      "properties": {
+        "primaryKey": "id",
+        "namespace": "http://example.org/example-person",
+        "required": [
+          "firstName",
+          "lastName",
+          "fullName"
+        ]
+      }
+    },
+    {
+      "name": "def2",
+      "properties": {
+        "primaryKey": "id2",
+        "namespace": "http://example.org/example-person2",
+        "required": [
+          "firstName2",
+          "lastName2",
+          "fullName2"
+        ]
+      }
+    }
+  ],
+  "info": {
+    "description": "A model of a person, to demonstrate several extractions",
+    "title": "Person",
+    "version": "0.0.1",
+    "baseUri" : "http://example.org/example-person/"
+  }
+}

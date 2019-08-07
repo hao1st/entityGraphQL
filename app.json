@@ -1,0 +1,7 @@
+{
+  "name": "Demonstrate a GraphQL akka http Example (Entity)",
+  "description": "An example GraphQL server written with scala, akka-http and sangria.",
+  "repository": "https://github.com/hao1st",
+  "logo": "",
+  "keywords": ["scala", "sangria", "graphql", "entity"]
+}
